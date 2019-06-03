@@ -63,7 +63,7 @@ class AgGridWrapper extends PureComponent {
   render () {
     return (
       <Fragment>
-        <div className='ag-theme-balham' style={{ width: '100%', height: 'auto' }}>
+        <div className='ag-theme-balham' style={{ width: '100%', height: '400px' }}>
           <AgGridReact
             columnDefs={this.props.columnDefs}
             rowData={this.props.rowData}
